@@ -23,4 +23,16 @@ public class Academic extends Payroll{
         System.out.println("Giving lecture");
     }
 
+	public String getName() {
+		System.out.println(this.name);
+		return name;
+	}
+
+
+	public int getSalary() {
+		System.out.println(this.salary);
+		return salary;
+	}
+
+
 }

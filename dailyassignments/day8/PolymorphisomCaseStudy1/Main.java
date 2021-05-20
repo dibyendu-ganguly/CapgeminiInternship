@@ -17,8 +17,9 @@ public class Main {
 	        int sal = sc.nextInt();
 	        Admin a = new Admin(name,sal);
 	        
-	        //System.out.println("Name of admin");
+	        a.getName();
 	        a.adjustSalary(sal);
+	        a.getSalary();
 	        a.doAdminStuff();
 	        sc.close();
 	    }
@@ -31,7 +32,9 @@ public class Main {
 	        int sal = sc.nextInt();
 	        Academic a = new Academic(name,sal);
 	        //System.out.println("Name of academic:");
+	        a.getName();
 	        a.adjustSalary(sal);
+	        a.getSalary();
 	        a.giveLecture();
 	        sc.close();
 	    }

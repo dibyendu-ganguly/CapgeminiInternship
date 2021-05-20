@@ -8,7 +8,17 @@ package com.capgemini.dailyassignments.day8.PolymorphisomCaseStudy1;
  *
  */
 public class Payroll {
+	private int salary;
+	
 	public void adjustSalary(int salary) {
-        System.out.println("Salary is: " + salary);
+		this.salary= salary;
+        
     }
+
+	public int getSalary() {
+		System.out.println("Salary is: " + this.salary);
+		System.out.println("Salary is: " + salary);
+		return salary;
+	}
+	
 }

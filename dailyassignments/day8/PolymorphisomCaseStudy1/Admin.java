@@ -10,9 +10,7 @@ package com.capgemini.dailyassignments.day8.PolymorphisomCaseStudy1;
 public class Admin extends Payroll{
 	private String name;
     private int salary;
-
-    
-    
+        
     Admin() {}
 
     public Admin(String name, int salary) {
@@ -25,5 +23,17 @@ public class Admin extends Payroll{
     public void doAdminStuff() {
         System.out.println("Doing Admin Stuff");
     }
+
+	public String getName() {
+		System.out.println(this.name);
+		return name;
+	}
+	
+	public int getSalary() {
+		System.out.println(this.salary);
+		return salary;
+	}
+
+	
 
 }
